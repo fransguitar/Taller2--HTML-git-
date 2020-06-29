@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
   </head>
   <body>
     <title>Home</title>
     <p><strong>Rellena tu CV</strong></p>
-    <form class="" action="segundo.html" method="post">
+    <form class="" action="frontend.html" method="post">
       <p>Nombre:</p>
       <p><input type="text" name="nombre" size="40"></p>
       <p>Apellidos:</p>
@@ -38,8 +39,19 @@
 
         </select>
         <p>Fecha de nacimiento</p>
-        <p><input type="text" name="dia" ></p>
+        <p><input type="text" name="dia" size="2" >de <select class="" name="mes">
+          <option value="1">Enero</option>
+        </select>de <input type="text" name="año" value="" size="4"></p>
+        <p>Temas de interes</p>
+        <p><select name="menu[]" size="5" multiple>
+  <option value="1">Administraci&oacute;n de bases de datos</option>
+  <option value="2">Analisis y programaci&oacute;n</option>
+  <option value="3">Arquitectura</option>
+  <option value="4">Calidad</option>
+  <option value="5">ERP,CRM,Business intelligence</option>
+</select></p>
       </fieldset>
+    <p>  <input type="submit" value="Guardar información">   <input type="reset" value="Borrar los datos introducidos "></p>
 
     </form>
 
