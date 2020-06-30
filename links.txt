@@ -1,0 +1,11 @@
+https://java.com/
+https://en.wikipedia.org/wiki/C_(programming_language)
+https://www.python.org/
+https://es.wikipedia.org/wiki/C_Sharp
+https://es.wikipedia.org/wiki/C%2B%2B
+https://es.wikipedia.org/wiki/Visual_Basic_.NET
+https://www.javascript.com/
+https://es.wikipedia.org/wiki/PHP
+https://developer.apple.com/swift/
+https://es.wikipedia.org/wiki/SQL
+https://www.ruby-lang.org/es/
